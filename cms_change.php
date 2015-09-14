@@ -231,7 +231,7 @@ class cms_change {
             }
         }
     }
-     /*  @function CMS file change
+     /**  @function CMS file change
      *  @type     json 格式的cms data
      *  @param    $cms_data 原始的cms data
      *  @param    $param url 格式化之后的结果
@@ -250,7 +250,7 @@ class cms_change {
         $this->del_cms_data($cms_data['body'],$path,$param,$c_m,$url);
         return $cms_data;
     }
-    /*
+    /**
     *   @function 上传cms_index 文件
     *   @type     urlencode 之后的cms数据
     *   @param    $cms_data 处理之后的json串
@@ -267,7 +267,7 @@ class cms_change {
         }
         $this->_log('upload cms data end!');
     }
-   /*
+   /**
     *   @function 下载cms_index 数据
     *   @type     数据格式为json格式
     *   @param    $country 对应的国家
@@ -292,7 +292,7 @@ class cms_change {
         }
         return '';
     }
-    /*
+    /**
      * @param 更新cms文件
      *
      * @return
@@ -310,7 +310,7 @@ class cms_change {
             $this->_log('update cms date failed!');
         }
     }
-    /*
+    /**
      *  @function 封装好的post请求类，可以直接调用，如果后期文件比较大，可以考虑单独写个文件
      *  @param    $res 请求的URL, $file_data 上传的文件/数据
      *  @return   执行结果，空为false
@@ -338,7 +338,7 @@ class cms_change {
             return '';
         }
     }
-    /*
+    /**
      *  @function 封装好的get请求类
      *  @param    $res 请求URL
      *  @return   网页返回值
