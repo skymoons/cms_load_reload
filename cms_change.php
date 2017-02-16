@@ -375,7 +375,7 @@ class cms_change {
         $Email->send();
     }
 }
-//$url = 'http://api.gid.hao123.com/api.php?app=pray&act=contents&country=id&city=Jakarta&jsonp=ghao123_c6ae6d3fc94af556&_=1426244982078';
+
 new cms_change($argv[1]);
 //new cms_change($url);
 /* vim: set expandtab ts=4 sw=4 sts=4 tw=100: */
